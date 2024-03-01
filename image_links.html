@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Links</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        header,
+        nav,
+        main {
+            margin-bottom: 20px;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            width: 480px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Welcome to Image Links!</h1>
+        <p>Explore our collection of images across different themes.</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#menu">Menu</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="home">
+            <h2>Home</h2>
+            <p>Welcome to our technology-themed image:</p>
+            <a href="#"><img src="https://www.simplilearn.com/ice9/free_resources_article_thumb/Technology_Trends.jpg"
+                    alt="Simplilearn.com"></a>
+        </section>
+
+        <section id="gallery">
+            <h2>Gallery</h2>
+            <p>Enjoy our nature-themed images:</p>
+            <div class="image-grid">
+                <img src="images\flowers.jpg" alt="Flowers under a tree">
+                <img src="images\evening-sun.jpg" alt="Evening sun">
+                <img src="images\man-walking-dog.jpg" alt="Man walking dog">
+            </div>
+        </section>
+
+        <section id="menu">
+            <h2>Menu</h2>
+            <p>Check out our delicious food items:</p>
+            <figure>
+                <a href="#"><img src="images\westafrican-food.jpeg" alt="West African food"></a>
+                <figcaption>West African Food</figcaption>
+            </figure>
+            <figure>
+                <a href="#"><img src="images\white-chapati.jpg" alt="White Chapati"></a>
+                <figcaption>White Chapati</figcaption>
+            </figure>
+            <figure>
+                <a href="#"><img src="images\beef-stew.jpg" alt="Beef stew in a bowl" loading="lazy"></a>
+                <figcaption>Beef Stew</figcaption>
+            </figure>
+        </section>
+
+    </main>
+
+</body>
+
+</html>
